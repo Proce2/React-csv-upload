@@ -9,6 +9,7 @@ Test
 
 ```bash
 npm install
+```
 
 ## Usage
 
