@@ -17,7 +17,9 @@ npm install
 
 1. Start the Node.js server by running the following command in the project directory:
 
+```bash
 node index.js
+```
 
    This will start the Node.js server on port 3000.
 
@@ -29,7 +31,9 @@ node index.js
 
 1. Start the React development server by running the following command in the project directory:
 
+```bash
 npm start
+```
 
    This will start the React development server on port 3001.
 
@@ -53,10 +57,14 @@ To run the automated tests, follow these steps:
 
 4. Run the following command to execute the tests for `Api.test.js`:
 
+```bash
 npm test Api.test.js
+```
 
 5. Run the following command to execute the tests for `App.test.js`:
 
+```bash
 npm test App.test.js
+```
 
 This will run the specified test files and display the test results in the terminal or command prompt.
