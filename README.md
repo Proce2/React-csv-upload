@@ -7,6 +7,7 @@ Test
 1. Clone the repository.
 2. Install the required dependencies by running the following command:
 
+```bash
 npm install
 
 ## Usage
