@@ -1,60 +1,68 @@
-# Project Name
+# React-fetch-app
 
-Test
+A basic web app built with Node.js and React that uses Express for handling uploads, NeDB for storing data, and csv-parse to process CSV files.
 
-## Installation
+## How to install
 
-1. Clone the repository.
-2. Install the required dependencies by running the following command:
+
+### Prerequisites
+
+Check if you have the right versions for this project, as listed in the `package.json`.
+
 
 ```bash
-npm install
+node --version
+npm --version
 ```
+
+### Installation
+Clone the repository and install dependencies `npm install`
 
 ## Usage
 
-### Node.js Server
 
-1. Start the Node.js server by running the following command in the project directory:
+### Running the Server
+
+To start the server, run:
 
 ```bash
 node index.js
 ```
 
-   This will start the Node.js server on port 3000.
-
-2. The Node.js server will handle the API endpoints for file upload, searching users, and deleting data.
-
-3. You can access the API endpoints through `http://localhost:3000/api/`.
+The server will listen on port 3000 for requests.
 
 ### React Frontend
 
-1. Start the React development server by running the following command in the project directory:
+To start the React frontend, run:
 
 ```bash
 npm start
 ```
 
-   This will start the React development server on port 3001.
+Then, open http://localhost:3001 in your browser.
 
-2. Open your web browser and navigate to `http://localhost:3001`.
+### Using the React Frontend
 
-3. Upload a CSV file by clicking on the "Upload CSV" button.
+-   **Upload a CSV File**: Click the "Upload CSV" button to select and upload a file. 
+    
+-   **Search Users**: Enter a search term in the input field and click on the "Search" button or press enter to retrieve users based on the entered criteria.
+    
 
-4. Enter a search term in the input field and click on the "Search" button to search for users based on the entered term.
+### Backend Interaction
 
-5. The search results will be displayed below the search input field.
+-   **Delete All Data**: To clear all data from the database, you can use the following curl command to send a DELETE request to the backend, as this functionality is managed directly via API:
 
-## Automated Testing
+```bash
+curl -X DELETE http://localhost:3000/api/files
+```
+    
+## Testing
 
 To run the automated tests, follow these steps:
 
 1. Make sure the server is running.
-
 2. Open a terminal or command prompt.
-
 3. Navigate to the project directory.
-
 4. Run the following command to execute the tests for `Api.test.js`:
 
 ```bash
@@ -68,3 +76,8 @@ npm test App.test.js
 ```
 
 This will run the specified test files and display the test results in the terminal or command prompt.
+
+
+
+
+
