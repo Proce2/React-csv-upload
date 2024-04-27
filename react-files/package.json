@@ -1,5 +1,5 @@
 {
-  "name": "react-fetch-app",
+  "name": "react-axios-jest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

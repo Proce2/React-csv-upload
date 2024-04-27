@@ -1,4 +1,4 @@
-# React-fetch-app
+# React-csv-upload
 
 A basic web app built with Node.js and React that uses Express for handling uploads, NeDB for storing data, and csv-parse to process CSV files.
 
@@ -16,12 +16,13 @@ npm --version
 ```
 
 ### Installation
+
 Clone the repository and install dependencies `npm install`
 
 ## Usage
 
 
-### Running the Server
+### Node
 
 To start the server, run:
 
