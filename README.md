@@ -2,45 +2,22 @@
 
 A basic web app built with Node.js and React that uses Express for handling uploads, NeDB for storing data, and csv-parse to process CSV files.
 
-## How to install
+## Installation
 
+Check if you have the right versions for `node` and `npm` to the listed in `package.json`.
 
-### Prerequisites
-
-Check if you have the right versions for this project, as listed in the `package.json`.
-
-
-```bash
-node --version
-npm --version
-```
-
-### Installation
-
-Clone the repository and install dependencies `npm install`
+Clone the repository and install dependencies `npm install`.
 
 ## Usage
 
 
-### Node
+### Node Backend
 
-To start the server, run:
-
-```bash
-node index.js
-```
-
-The server will listen on port 3000 for requests.
+Run `node index.js`, the server will listen on port 3000 for requests.
 
 ### React Frontend
 
-To start the React frontend, run:
-
-```bash
-npm start
-```
-
-Then, open http://localhost:3001 in your browser.
+To start the React frontend, run `npm start`. Then, open http://localhost:3001 in your browser.
 
 ### Using the React Frontend
 
