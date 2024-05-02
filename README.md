@@ -4,18 +4,18 @@ A basic web app built with Node.js and React that uses Express for handling uplo
 
 ## Installation
 
-Check if you have the right versions for `node` and `npm` to the listed in `package.json`.
+Check if you have the right versions of `node` and `npm` as listed in `package.json`.
 
 Clone the repository and install dependencies `npm install`.
 
 ## Usage
 
 
-### Node Backend
+### Node.js
 
 Run `node index.js`, the server will listen on port 3000 for requests.
 
-### React Frontend
+### React.js
 
 To start the React frontend, run `npm start`. Then, open http://localhost:3001 in your browser.
 
@@ -23,10 +23,9 @@ To start the React frontend, run `npm start`. Then, open http://localhost:3001 i
 
 -   **Upload a CSV File**: Click the "Upload CSV" button to select and upload a file. 
     
--   **Search Users**: Enter a search term in the input field and click on the "Search" button or press enter to retrieve users based on the entered criteria.
+-   **Search Users**: Enter a search term in the input field and click on the "Search" button to retrieve users based on the entered criteria.
     
-
-### Backend Interaction
+### Node.js Backend Interaction
 
 -   **Delete All Data**: To clear all data from the database, you can use the following curl command to send a DELETE request to the backend, as this functionality is managed directly via API:
 
@@ -54,8 +53,3 @@ npm test App.test.js
 ```
 
 This will run the specified test files and display the test results in the terminal or command prompt.
-
-
-
-
-
