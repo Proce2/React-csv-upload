@@ -30,7 +30,7 @@ To start the React frontend, run `npm start`. Then, open http://localhost:3001 i
 -   **Delete All Data**: To clear all data from the database, you can use the following curl command to send a DELETE request to the backend, as this functionality is managed directly via API:
 
 ```bash
-curl -X DELETE http://localhost:3000/api/files
+Invoke-WebRequest -Uri http://localhost:3000/api/files -Method DELETE
 ```
     
 ## Testing
