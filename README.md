@@ -4,12 +4,17 @@ A basic web app built with Node.js and React that uses Express for handling uplo
 
 ## Installation
 
-Check if you have the right versions of `node` and `npm` as listed in `package.json`.
+### Prerequisites
 
-Clone the repository and install dependencies `npm install`.
+Check if you have the right versions of node and npm as listed in package.json.
+
+### Installation
+
+- Clone the repository.
+- Navigate to the project directory.
+- Install the required dependencies using `npm install`.
 
 ## Usage
-
 
 ### Node.js
 
