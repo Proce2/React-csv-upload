@@ -46,9 +46,9 @@ Check if you have the right versions of node and npm as listed in package.json.
 
 -   **Delete All Data**: To clear all data from the database, you can use the following curl command to send a DELETE request to the backend, as this functionality is managed directly via API:
 
-```bash
-Invoke-WebRequest -Uri http://localhost:3000/api/files -Method DELETE
-```
+    ```bash
+    Invoke-WebRequest -Uri http://localhost:3000/api/files -Method DELETE
+    ```
     
 ## Testing
 
@@ -59,14 +59,13 @@ To run the automated tests, follow these steps:
 3. Navigate to the project directory.
 4. Run the following command to execute the tests for `Api.test.js`:
 
-```bash
-npm test Api.test.js
-```
+    ```bash
+    npm test Api.test.js
+    ```
 
 5. Run the following command to execute the tests for `App.test.js`:
 
-```bash
-npm test App.test.js
-```
+    ```bash
+    npm test App.test.js
+    ```
 
-This will run the specified test files and display the test results in the terminal or command prompt.
