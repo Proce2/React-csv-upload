@@ -14,15 +14,27 @@ Check if you have the right versions of node and npm as listed in package.json.
 - Navigate to the project directory.
 - Install the required dependencies using `npm install`.
 
-## Usage
+## Node.js Backend
 
-### Node.js
+1. Navigate to the node files.
+2. Run the command:
 
-Run `node index.js`, the server will listen on port 3000 for requests.
+    ```bash
+    node index.js. 
+    ```
 
-### React.js
+    This will start the server which will listen on `port 3000` for requests.
 
-To start the React frontend, run `npm start`. Then, open http://localhost:3001 in your browser.
+## React.js Frontend
+
+1. Navigate to the React files.
+2. Run the command:
+ 
+    ```bash
+    npm start
+    ```
+
+    This will start the React application. Open your web browser and navigate to `http://localhost:3001` to view the application.
 
 ### Using the React Frontend
 
