@@ -27,7 +27,7 @@ Check if you have the right versions of node and npm as listed in package.json.
     node index.js. 
     ```
 
-    This will start the server which will listen on `port 3000` for requests.
+    This will start the server which will listen on port 3000 for requests.
 
 ## React.js Frontend
 
