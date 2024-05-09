@@ -12,7 +12,11 @@ Check if you have the right versions of node and npm as listed in package.json.
 
 - Clone the repository.
 - Navigate to the project directory.
-- Install the required dependencies using `npm install`.
+- Install the required dependencies:
+
+    ```bash
+    npm install
+    ```
 
 ## Node.js Backend
 
@@ -68,4 +72,3 @@ To run the automated tests, follow these steps:
     ```bash
     npm test App.test.js
     ```
-
