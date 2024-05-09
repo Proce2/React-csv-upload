@@ -24,7 +24,7 @@ Check if you have the right versions of node and npm as listed in package.json.
 2. Run the command:
 
     ```bash
-    node index.js. 
+    node index.js
     ```
 
     This will start the server which will listen on port 3000 for requests.
